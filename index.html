@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!------------------------------  FONT AWESOME -------------------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+    <!------------------------------  BOOTSTRAP -------------------------------->
+    <link rel="stylesheet" href="    https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!------------------------------ CSS -------------------------------->
+    <link rel="stylesheet" href="style.css">
+
+    <!------------------------------ FAVICON -------------------------------->
+    <link rel="shortcut icon" href="./assets/favicon/favicon-32x32.png" type="image/x-icon">
+
+
+    <title>Portifólio | Luciano Mariano</title>
+</head>
+
+<body>
+    <div class="container">
+        <!------------------------------ HEADER -------------------------------->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name">LM</p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Inicio</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">Sobre mim</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projetos</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contato</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="./assets/file/LUCIANO MARIANO - CV.pdf" target="_blank">
+                    <button class="btn">Visualize CV <i class="fa-regular fa-file-lines" style="color: #6563ff;"></i></button>
+                </a>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="fa-solid fa-bars" style="color: #6563ff;" onclick="menuFunction()"></i>
+            </div>
+        </nav>
+
+        <!------------------------------ MAIN -------------------------------->
+        <main class="wrapper">
+            <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Luciano Mariano</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>Eu sou <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Desenvolvedor Jr. Frontend em treinamento, buscando oportunidades para aprimorar minhas
+                            habilidades e contribuir para o sucesso da sua empresa.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn">Contrate-me</button>
+
+                        <a href="./assets/file/LUCIANO MARIANO - CV.pdf" download>
+                            <button class="btn ">
+                                Download CV <i class="fa-solid fa-file-lines"style="color: #6563ff;"></i>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="social_icons">
+                        <!-- <div class="icon">
+                            <a href="https://www.instagram.com/lucianobrew/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div> -->
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/lucianoafmariano" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://github.com/lucianoafmariano" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="mailto:lucianoalexandre.mariano@gmail.com">
+                                <i class="fa-brands fa-google-plus"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <img src="./assets/img/profile-2.png" alt="foto-perfil-">
+                    </div>
+                </div>
+            </section>
+
+            <!-- -------------- ABOUT BOX ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>Sobre mim</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>Introdução</h3>
+                            <p>
+                                Meu nome é Luciano Mariano, tenho 44 anos, sou formado no curso Análise e Desenvolvimento de Sistemas pela Universidade Estácio de Sá. 
+                            </p>
+                            <br>
+                            <p>
+                                Minha experiência inclui suporte técnico, resolvendo problemas de hardware e software, gerenciando redes e compartilhando recursos. consultoria e desenvolvimento, sendo esse último como PJ não registrado em carteira em que prestava serviço em ajustes, atualizações ou correções em telas do sistema de uma empresa de transporte de carga de São Paulo.
+                            </p>
+                            <br>
+                            <p>
+                                Meu conhecimento abrange várias tecnologias, incluindo HTML, CSS, JavaScript, bancos de dados SQL. Atualmente tenho focado os estudos mais direcionados ao Frontend, no qual busco vagas de desenvolvedor Jr. 
+                            </p>
+                            <div class="about-btn">
+                                <a href="./assets/file/LUCIANO MARIANO - CV.pdf" download>
+                                    <button class="btn">
+                                        Download CV <i class="fa-solid fa-download" style="color: #ffff;"></i>
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="btn-backtop">
+                            <button class="back-to-back" onclick="scrollToTop()">
+                                <i class="fa-solid fa-arrow-up"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Frontend</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Banco de Dados</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>SQL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <!-- -------------- PROJECT BOX ---------------- -->
+             <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projetos</h1>
+                </div>
+                <div class="project-container">
+
+                    <div class="project-box">
+                        <h3>Portfólio - Luciano Mariano</h3>
+                        <img src="./assets/img/Portfolio - Luciano Mariano.png" alt="Portfólio - Luciano Mariano">
+                        <a href="https://qualonumerosecreto.vercel.app/" target="_blank">
+                            <div class="featured-text-btn">
+                                <button class="btn blue-btn">ACESSAR</button>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="project-box">
+                        <h3>Qual o número secreto?</h3>
+                        <img src="./assets/img/QualoNumeroSecreto.png" alt="Qual o número secreto?">
+                        <a href="https://qualonumerosecreto.vercel.app/" target="_blank">
+                            <div class="featured-text-btn">
+                                <button class="btn blue-btn">ACESSAR</button>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="project-box">
+                        <h3>Decodificador de Texto - One Oracle Alura</h3>
+                        <img src="./assets/img/DecodificadorDeTexto-LucianoMariano.png" alt="Decodificador de Texto - One Oracle Alura">
+                        <a href="https://decodificadordetexto-kappa.vercel.app/" target="_blank">
+                            <div class="featured-text-btn">
+                                <button class="btn blue-btn">ACESSAR</button>
+                            </div>
+                        </a>
+                    </div>
+                
+                    <div class="project-box">
+                        <h3>Jogo da Forca - One Oracle Alura</h3>
+                        <img src="./assets/img/JogoDaForca-LucianoMariano.png" alt="Jogo da Forca - One Oracle Alura">
+                        <a href="https://jogodaforca-ashy.vercel.app/" target="_blank">
+                            <div class="featured-text-btn">
+                                <button class="btn blue-btn">ACESSAR</button>
+                            </div>
+                        </a>
+                    </div>
+
+                </div>
+
+             </section>
+              <!-- -------------- CONTACT BOX ---------------- -->
+              <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>CONTATO</h1>
+                    <span>Você tem um projeto em mente? Entre em contato!</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Meu contato <i class="fa-solid fa-arrow-turn-down"></i></h2>
+                            <p><i class="fa-solid fa-envelope"></i> Email: lucianoalexandre.mariano@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Name">
+                                <input type="text" class="input-field" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea placeholder="Mensagem"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send <i class="fa-solid fa-paper-plane"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </section>
+
+        </main>
+
+        <!------------------------------ FOOTER -------------------------------->
+        <footer>
+            <div class="top-footer">
+                <p>Luciano Mariano</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Inicio</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">Sobre mim</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projetos</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contato</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-social-icons">
+                        <!-- <div class="icon">
+                            <a href="https://www.instagram.com/lucianobrew/" target="_blank">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div> -->
+                        <div class="icon">
+                            <a href="https://www.linkedin.com/in/lucianoafmariano/" target="_blank">
+                                <i class="fa-brands fa-linkedin"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://github.com/lucianoafmariano" target="_blank">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="mailto:lucianoalexandre.mariano@gmail.com">
+                                <i class="fa-brands fa-google-plus"></i>
+                            </a>
+                        </div>
+            </div>
+
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Luciano Mariano</a> - Todos os direitos reservados</p>
+            </div>
+        </footer>
+    </div>
+
+    <!------------------------------ JS -------------------------------->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
